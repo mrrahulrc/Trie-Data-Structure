@@ -60,8 +60,8 @@ public class Trie{
 				TrieNode newNode = new TrieNode();
 				temp.putNewTrieNode(newNode, ch);
 				// it will return nextNode 
-				temp = temp.getNextNode(ch);
 			}
+			temp = temp.getNextNode(ch);
 		}
 		temp.isEnded = true;
 	}
